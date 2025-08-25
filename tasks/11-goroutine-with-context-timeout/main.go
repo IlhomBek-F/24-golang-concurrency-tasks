@@ -11,15 +11,12 @@ import (
 
 func worker(ctx context.Context, task int) {
 	fmt.Printf("Worker %d started...\n", task)
-	for {
-		select {
-		case <-ctx.Done():
-			fmt.Printf("Worker %d stopped due to time out\n", task)
-			return
-		default:
-			fmt.Printf("Worker %d working...\n", task)
-			time.Sleep(time.Second)
-		}
+	select {
+	case <-ctx.Done():
+		fmt.Printf("Worker %d stopped due to time out\n", task)
+		return
+	default:
+		fmt.Printf("Worker %d working...\n", task)
 	}
 }
 
