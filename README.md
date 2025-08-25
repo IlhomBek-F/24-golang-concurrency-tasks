@@ -19,4 +19,6 @@ This repository contains 50 hands-on tasks to learn and practice **Golang concur
 9. **Rate limiting** – Implement a simple rate limiter so that goroutines don’t process tasks faster than a given rate.
 10. **Cancellation with context** – Cancellation with context.Context
 11. **Cancellation with context timeout** – Cancellation with context.Context time out
+12. **Rate-Limited Workers with Timeout** – Automatically stop all workers after a timeout using context.WithTimeout
+11. **Worker Pool + Result Collection + Timeout + Rate Limiting** – Combine multiple concurrency concepts into one task
 ---
