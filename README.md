@@ -21,4 +21,9 @@ This repository contains 50 hands-on tasks to learn and practice **Golang concur
 11. **Cancellation with context timeout** – Cancellation with context.Context time out
 12. **Rate-Limited Workers with Timeout** – Automatically stop all workers after a timeout using context.WithTimeout
 13. **Worker Pool + Result Collection + Timeout + Rate Limiting** – Combine multiple concurrency concepts into one task
+14. **Pipeline Pattern** – Implement a pipeline where data flows through multiple stages, each handled by a separate goroutine.
+15. **Fan-in Pattern** – Merge multiple channels into a single channel (fan-in).
+16. **Worker Pool with Priorities** – Implement a worker pool that processes tasks, but each task has a priority.
+17. **Rate-Limited Worker Pool with Context Cancellation** – Combine worker pools, rate limiting, and early cancellation using context.Context.
+18. **Bounded Worker Pool with Backpressure** – Backpressure happens when the producer (sender) generates values faster than the consumer (worker/receiver) can handle.
 ---

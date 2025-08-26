@@ -14,7 +14,6 @@ func worker(workerIndex int, tasks <-chan int, wg *sync.WaitGroup) {
 	for task := range tasks {
 		fmt.Printf("Worker %d processing task %d\n", workerIndex, task)
 	}
-
 }
 
 func main() {
