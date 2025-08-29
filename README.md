@@ -26,4 +26,10 @@ This repository contains 50 hands-on tasks to learn and practice **Golang concur
 16. **Worker Pool with Priorities** – Implement a worker pool that processes tasks, but each task has a priority.
 17. **Rate-Limited Worker Pool with Context Cancellation** – Combine worker pools, rate limiting, and early cancellation using context.Context.
 18. **Bounded Worker Pool with Backpressure** – Backpressure happens when the producer (sender) generates values faster than the consumer (worker/receiver) can handle.
+19. **Log Aggregator** - Imagine you’re building a central log aggregator service that collects logs from multiple microservices
+20. **Concurrent Fetch with Fallback** - Query 3 sources concurrently, take first response, cancel the others
+21. **Task Multi-Service Shutdown** - You are building a system with 3 independent services running concurrently. Each service processes tasks in a loop
+22. **Timeout + Heartbeat Monitor** - Timeout + Heartbeat Monitor
+23. **Build a Worker Pool System** - Implement a concurrent web scraper using goroutines and channels
+24. **Build a Log Aggregator** - Build a system that collects log messages from multiple sources, processes them, and writes them to an output file
 ---
