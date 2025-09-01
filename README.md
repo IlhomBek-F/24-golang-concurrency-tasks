@@ -1,4 +1,4 @@
-# 🚀 50 Go Concurrency Tasks
+# 🚀 24 Go Concurrency Tasks
 
 This repository contains 50 hands-on tasks to learn and practice **Golang concurrency** with goroutines, channels, and sync utilities.
 
